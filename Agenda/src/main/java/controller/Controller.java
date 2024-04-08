@@ -53,7 +53,7 @@ public class Controller extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-	
+		System.out.println("teste");
 		switch (request.getServletPath()) {
 		case "/main":
 			selectAllContatos(request, response);
